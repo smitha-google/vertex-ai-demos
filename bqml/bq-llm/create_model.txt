@@ -1,0 +1,5 @@
+CREATE MODEL
+<projectid>.<dataset>.<model_name>
+REMOTE WITH CONNECTION `<projectid>.<location>.<connection_name>`
+OPTIONS(REMOTE_SERVICE_TYPE = 'CLOUD_AI_LARGE_LANGUAGE_MODEL_V1'
+);

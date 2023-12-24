@@ -96,14 +96,12 @@ with tab1:
         "temperature": 0.8,
         "max_output_tokens": 2048,
         }
-   
    if reply:
        response = get_gemini_pro_text_response(
                     text_model_pro,
                     prompt,
                     generation_config=config,
         )
-       
        if response:
             st.write("From Gemini Model:")
             st.write(response)
@@ -125,8 +123,7 @@ with tab2:
        st.write(response)
 with tab3:
    image_path = Path(__file__).with_name("metaai.jpeg").relative_to(Path.cwd())
-   st.header("Llama-2")
-   #st.image("../images/metaai.jpg", width=200)
+   st.header("Llama-2 -> Meta's Llama model is available in Vertex AI Model Garden. Tuned and downloaded the model in Vertex AI and will be available as an end point.")
    st.image(str(image_path), width=200)
    prompt = st.text_input("Input Prompt", key="llamaPrompt")
    reply = st.button("Submit", key="llamasubmit")
