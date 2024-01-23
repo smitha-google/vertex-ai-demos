@@ -1,0 +1,8 @@
+{"id":1, "question":"What is the hardest material?","context": "Some might think that steel is the hardest material, or even titanium. However, diamond is actually the hardest material.",
+"model_b_response": "Diamond is the hardest material. It is harder than steel or titanium."}
+{"id": 2,"question": "What is the highest mountain in the world?","context": "K2 and Everest are the two tallest mountains, with K2 being just over 28k feet and Everest being 29k feet tall.",
+"model_b_response": "Mount Everest is the tallest mountain, with a height of 29k feet."}
+{"id": 3,"question": "Who directed The Godfather?","context": "Mario Puzo and Francis Ford Coppola co-wrote the screenplay for The Godfather, and the latter directed it as well.",
+"model_b_response": "Francis Ford Coppola directed The Godfather."}
+{"id": 4,"question": "Who directed The Godfather?","context": "Mario Puzo and Francis Ford Coppola co-wrote the screenplay for The Godfather, and the latter directed it as well.","model_b_response": "John Smith."
+}
