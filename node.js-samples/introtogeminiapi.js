@@ -19,6 +19,8 @@ async function generateContent() {
     contents: [{role: 'user', parts: [{text: "What is a large language model?"}]}],
   };
 
+  console.log('hi')
+
   const streamingResp = await generativeModel.generateContentStream(req);
 
   // Wait for the response stream to complete
