@@ -3,7 +3,7 @@ from google.cloud import aiplatform
 import vertexai
 from pathlib import Path
 import os
-from smutils import utils
+from smutils import multimodalutils
 import numpy as np
 import pandas as pd
 from vertexai.preview.generative_models import (Content,
@@ -25,6 +25,10 @@ st.title("Chat Bot")
 if "text_df" not in st.session_state:
     st.session_state['text_df'] = pd.DataFrame()
 
+#creating session states
+if "image_metadata_df" not in st.session_state:
+    st.session_state['image_metadata_df'] = pd.DataFrame()
+    
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -39,6 +43,13 @@ if 'disabled' not in st.session_state:
 def disable():
     st.session_state.disabled = True
 
+@st.cache_resource
+def load_model():
+    model = GenerativeModel("gemini-pro")
+    multimodal_model = GenerativeModel("gemini-1.0-pro-vision")
+    text_embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@001")
+    return model, multimodal_model
+
 with st.form("my_form"):
     uploaded_pdf = st.file_uploader('Choose your .pdf file', type="pdf", 
                                 disabled=st.session_state.disabled)
@@ -50,17 +61,19 @@ with st.form("my_form"):
         file.write(uploaded_pdf.getvalue())
         file_name = uploaded_pdf.name
        st.info("Indexing and Generating Embeddings")
-       text_metadata_df = utils.get_text_metadata(file, PROJECT_ID)
+       # Specify the image description prompt. Change it
+       image_description_prompt = """Explain what is going on in the image.
+        If it's a table, extract all elements of the table.
+        If it's a graph, explain the findings in the graph.
+        Do not include any numbers that are not mentioned in the image.
+        """
+       text_metadata_df, image_metadata_df = multimodalutils.get_document_metadata(GenerativeModel("gemini-1.0-pro-vision"),  # we are passing gemini 1.0 pro vision model
+                    file,file_name, image_save_dir="images",image_description_prompt=image_description_prompt,embedding_size=1408,)
        frames = [st.session_state['text_df'], text_metadata_df]
+       frames1 = [st.session_state['image_metadata_df'], image_metadata_df]
        st.session_state['text_df'] = pd.concat(frames)
+       st.session_state['image_metadata_df'] = pd.concat(frames1)
        st.info("File is indexed and ready for Q&A")
-
-@st.cache_resource
-def load_model():
-    model = GenerativeModel("gemini-pro")
-    multimodal_model = GenerativeModel("gemini-1.0-pro-vision")
-    text_embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@001")
-    return model, multimodal_model
 
 def multiturn_generate_content(model: GenerativeModel,
                                   prompt: str, 
@@ -103,32 +116,56 @@ if prompt := st.chat_input("Add your prompt:"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     response=f"Echo: {prompt}"
     with st.spinner("Generating..."):
-        matching_results_chunks_data = utils.get_similar_text_from_query(
-            PROJECT_ID,prompt,st.session_state['text_df'],column_name="text_embedding_chunk",
-            top_n=3, embedding_size=128, chunk_text=True,
+        matching_results_text = multimodalutils.get_similar_text_from_query(prompt,
+            st.session_state['text_df'],column_name="text_embedding_chunk",top_n=10,
+            chunk_text=True,
         )
 
+        # Get all relevant images based on user query
+        matching_results_image_fromdescription_data = multimodalutils.get_similar_image_from_query(
+            st.session_state['text_df'], st.session_state['image_metadata_df'],
+            query=prompt,
+            column_name="text_embedding_from_image_description",  # Use image description text embedding
+            image_emb=False,  # Use text embedding instead of image embedding
+            top_n=10,
+            embedding_size=1408,
+        )
+
+        # combine all the selected relevant text chunks
         context_text = []
-        for key, value in matching_results_chunks_data.items():
+        for key, value in matching_results_text.items():
             context_text.append(value["chunk_text"])
-        #final_context_text = '\n'.join(context_text)
-        #joined_string = ' '.join([str(item) for item in list_of_strings])
-        final_context_text = "\n".join([str(item) for item in context_text])
+        final_context_text = "\n".join(context_text)
 
-        instructions = """The context of extraction of detail should be based on the text context given in "text_context": \n
-        Base your response on "text_context". Do not include any cumulative total return in the answer. Context:
-        """
-        final_prompt = [
-            prompt,
-            instructions,
-            "text_context:",
-            "\n".join(final_context_text)
-        ]
-        response = multiturn_generate_content(
-            model,
-            final_prompt,
-            generation_config=config,
+        # combine all the relevant images and their description generated by Gemini
+        context_images = []
+        for key, value in matching_results_image_fromdescription_data.items():
+            #st.image(value["image_object"].data)
+            context_images.extend(
+            ["Image: ", value["image_object"], "Caption: ", value["image_description"]]
         )
+
+        final_prompt = f""" Instructions: Compare the images and the text provided as Context: to answer multiple Question:
+        Make sure to think thoroughly before answering the question and put the necessary steps to arrive at the answer in bullet points for easy explainability.
+        If unsure, respond, "Not enough context to answer".
+
+        Context:
+        - Text Context:
+        {final_context_text}
+        - Image Context:
+        {context_images}
+
+        {prompt}
+
+        Answer:
+        """
+
+        response = multimodalutils.get_gemini_response(
+                multimodal_model,  # we are passing Gemini 1.0 Pro Vision
+                model_input=[final_prompt],
+                stream=True,
+                generation_config=GenerationConfig(temperature=0.2, max_output_tokens=2048),
+            )
         with st.chat_message("assistant"):
             st.markdown(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
