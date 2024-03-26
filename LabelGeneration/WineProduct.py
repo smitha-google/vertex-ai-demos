@@ -3,7 +3,6 @@ from google.cloud import aiplatform
 import vertexai
 from pathlib import Path
 import os
-from smutils import multimodalutils
 import numpy as np
 import pandas as pd
 import base64
