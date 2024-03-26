@@ -46,12 +46,15 @@ def generate(image, prompt):
 with st.form("my_form"):
     uploaded_images = st.file_uploader('Choose your .jpeg/.png file', type=['png', 'jpg'],accept_multiple_files=True, 
                                 disabled=st.session_state.disabled)
+    
+    instructions = st.text_area("Set Instructions for the model","You are wine expert. Always return the name of the wine. The voice has to be fairly authoritative or crisp. \
+    Do not use flowery or descriptive language.")
+
     prompt = st.text_area(
     "Enter your prompt",
     "Generate the product description of the images uploaded and suggest pairings",
     )
-    final_prompt = f""" Instructions: You are wine expert. Always return the name of the wine. The voice has to be fairly authoritative or crisp. 
-    Do not use flowery or descriptive language.
+    final_prompt = f""" {instructions}
 
         {prompt}
 
@@ -72,6 +75,8 @@ with st.form("my_form"):
            with col1:
               st.image(image, caption=image.filename, width=200) 
            with col2:
-              responses = generate(Part.from_data(img_byte_arr, mime_type="image/png"), prompt)
+              responses = generate(Part.from_data(img_byte_arr, mime_type="image/png"), final_prompt)
               for response in responses:
-                 col2.write(response.text)
+                 output_text = response.text
+                 #col2.write(response.text)
+                 st.markdown(f"""{output_text}""")
