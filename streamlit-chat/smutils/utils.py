@@ -18,13 +18,13 @@ from vertexai.preview.generative_models import (Content,
 import vertexai
 from vertexai.vision_models import Image as vision_model_Image
 from vertexai.vision_models import MultiModalEmbeddingModel
+from vertexai.language_models import TextEmbeddingModel
 
-#text_embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@latest")
+text_embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@latest")
 multimodal_embedding_model = MultiModalEmbeddingModel.from_pretrained(
     "multimodalembedding"
 )
 #Load the document
-#def load_doc(path: str):
 def load_doc(file:str):
     # Open the PDF file
     doc: fitz.Document = fitz.open(file)
@@ -34,7 +34,7 @@ def load_doc(file:str):
 
     return doc, num_pages
 
-def get_text_embedding_from_text_embedding_model(
+def get_text_embedding_from_text_embedding_model_1(
     project_id: str, text: str, embedding_size: int = 128
 ) -> list:
     """
@@ -76,6 +76,33 @@ def get_text_embedding_from_text_embedding_model(
     )
     text_embedding = [v for v in response.predictions[0].get("textEmbedding", [])]
 
+    return text_embedding
+
+def get_text_embedding_from_text_embedding_model(
+    text: str,
+    return_array: Optional[bool] = False,
+) -> list:
+    """
+    Generates a numerical text embedding from a provided text input using a text embedding model.
+
+    Args:
+        text: The input text string to be embedded.
+        return_array: If True, returns the embedding as a NumPy array.
+                      If False, returns the embedding as a list. (Default: False)
+
+    Returns:
+        list or numpy.ndarray: A 768-dimensional vector representation of the input text.
+                               The format (list or NumPy array) depends on the
+                               value of the 'return_array' parameter.
+    """
+    print(f"Text Embdding method:" + text)
+    embeddings = text_embedding_model.get_embeddings([text])
+    text_embedding = [embedding.values for embedding in embeddings][0]
+
+    if return_array:
+        text_embedding = np.fromiter(text_embedding, dtype=float)
+
+    # returns 768 dimensional array
     return text_embedding
 
 def get_page_text_embedding(
@@ -314,7 +341,8 @@ def get_similar_text_from_query(
     top_n: int = 3,
     embedding_size: int = 128,
     chunk_text: bool = True,
-    print_citation: bool = False,
+    print_citation: bool = Fa
+    lse,
 ) -> Dict[int, Dict[str, Any]]:
     """
     Finds the top N most similar text passages from a metadata DataFrame based on a text query.
@@ -442,7 +470,7 @@ def get_image_for_gemini_ppts(
     # Load the saved image as a Gemini Image Object
     image_for_gemini = Image.load_from_file(image_name)
 
-    return image_name 
+    return image_for_gemini 
 
 def get_image_for_gemini(
     doc: fitz.Document,

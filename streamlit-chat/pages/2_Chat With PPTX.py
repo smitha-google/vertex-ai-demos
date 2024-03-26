@@ -17,8 +17,8 @@ from google.cloud import aiplatform
 from google.protobuf import struct_pb2
 from smutils import utils
 
-PROJECT_ID = "smithaargolisinternal"#os.environ.get('GCP_PROJECT') #Your Google Cloud Project ID
-LOCATION = "us-central1"#os.environ.get('GCP_REGION')   #Your Google Cloud Project Region
+PROJECT_ID = "smithaargolisinternal" #Your Google Cloud Project ID
+LOCATION = "us-central1" #Your Google Cloud Project Region
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 st.title("Chat With A Powerpoint")
 
@@ -47,36 +47,35 @@ def disable():
     st.session_state.disabled = True
 
 def load_ppt_as_dataframe(file:str):
-    prs = Presentation("./pages/Doc AI Prep.pptx")
+    prs = Presentation("./pages/Lilli_Prep_2.pptx")
     text_df = pd.DataFrame(columns=['file_name', 'page_num', 'text', 'embeddings'])
     image_df = pd.DataFrame(columns=['file_name', 'page_num', 'text', 'embeddings'])
     image_uri= ""
 
-    for slide_number, slide in enumerate(prs.slides): 
-        st.write(slide_number)
+    for slide_number, slide in enumerate(prs.slides):
+        st.write(len(slide.shapes))
         for shape in slide.shapes: 
             if hasattr(shape, "image"): 
                 image_uri = utils.get_image_for_gemini_ppts(shape.image.blob, slide_number+1, "images", "Doc AI Prep",slide_number+1)
                 image_embeddings = utils.get_image_embedding_from_multimodal_embedding_model(image_uri)
                 df2 = {'file_name':"Doc AI Prep.pptx",'page_num': slide_number+1, 'text': shape.image, 'embeddings': image_embeddings} 
                 image_df.loc[len(image_df)] = df2
-                st.write(image_df)
                 frames = [st.session_state['image_df'], image_df]
                 st.session_state['image_df'] = pd.concat(frames)
                 st.session_state['image_uri'] = image_uri
             elif hasattr(shape, "text"):
-                text=shape.text[:1000]
-                embeddings = utils.get_text_embedding_from_text_embedding_model(PROJECT_ID, text, 128)
-                df2 = {'file_name':"Doc AI Prep.pptx", 'page_num': slide_number+1, 'text': text, 'embeddings': embeddings} 
+                ppt_text=shape.text[:1000]
+                st.write(f"Ppt Text:"+ppt_text)
+                embeddings = utils.get_text_embedding_from_text_embedding_model(ppt_text)
+                df2 = {'file_name':"Doc AI Prep.pptx", 'page_num': slide_number+1, 'text': ppt_text, 'embeddings': embeddings} 
                 text_df.loc[len(text_df)] = df2
-                frames = [st.session_state['text_df'], text_df]
-                st.session_state['text_df'] = pd.concat(frames)
-                st.write(text_df)
-    return text_df
+                frames1 = [st.session_state['text_df'], text_df]
+                st.session_state['text_df'] = pd.concat(frames1)
+    return text_df, image_df
 
 def get_metadata(file_name): 
    #Load the PPT file
-   df = load_ppt_as_dataframe(file_name)
+   text_df, image_df = load_ppt_as_dataframe(file_name)
 
 with st.form("my_form"):
     uploaded_ppt = st.file_uploader('Choose your .ppt file', type="pptx", 
@@ -118,6 +117,7 @@ def multiturn_generate_content(model: GenerativeModel,
         HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
         HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
     }
+
     chat = model.start_chat()
     responses = chat.send_message(prompt, generation_config = generation_config,
                                       safety_settings=safety_settings,
@@ -142,21 +142,22 @@ if prompt := st.chat_input("Add your prompt:"):
     with st.spinner("Generating..."):
         matching_results_chunks_data = utils.get_similar_text_from_query(
             PROJECT_ID,prompt,st.session_state['text_df'],column_name="embeddings",
-            top_n=3, chunk_text=False,
+            top_n=10, chunk_text=False,
         )
 
+        st.dataframe(st.session_state['image_df'])
         # Get all relevant images based on user query
-        #matching_results_image_fromdescription_data = utils.get_similar_image_from_query(
-        #    st.session_state['text_df'],
-        #    st.session_state['image_df'],
-        #    query=prompt,
-        #    image_query_path=st.session_state['image_uri'],
-        #    column_name="embeddings",
-        #    image_emb=False,
-        #    top_n=10,
-        #    embedding_size=1408,
-        #    project_id=PROJECT_ID
-        #)
+        matching_results_image_fromdescription_data = utils.get_similar_image_from_query(
+            st.session_state['text_df'],
+            st.session_state['image_df'],
+            query=prompt,
+            image_query_path=st.session_state['image_uri'],
+            column_name="embeddings",
+            image_emb=False,
+            top_n=10,
+            embedding_size=1408,
+            project_id=PROJECT_ID
+        )
 
         context_text = []
         for key, value in matching_results_chunks_data.items():
@@ -165,15 +166,16 @@ if prompt := st.chat_input("Add your prompt:"):
 
         # combine all the relevant images and their description generated by Gemini
         context_images = []
-        #for key, value in matching_results_image_fromdescription_data.items():
-        #    context_images.append(
-        #        ["Image: ", value["image_object"], "Caption: ", value["image_description"]]
-        #    )
+        for key, value in matching_results_image_fromdescription_data.items():
+            context_images.append(
+                ["Image: ", value["image_object"], "Caption: ", value["image_description"]]
+            )
 
         st.write(final_context_text)
 
-        final_prompt = f""" Instructions: The context of extraction of detail should be based on the text given in "final_context_text" : \n
-        and image context in "context_images". Do not include any cumulative total return in the answer. ".
+        final_prompt = f""" Instructions: Compare the images and the text provided as Context: to answer multiple Question:
+        Make sure to think thoroughly before answering the question and put the necessary steps to arrive at the answer in bullet points for easy explainability.
+        If unsure, respond, "Not enough context to answer".
 
         Context:
         - Text Context:
