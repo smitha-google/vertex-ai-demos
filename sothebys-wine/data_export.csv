@@ -1,0 +1,330 @@
+Handle,Title,Type,Option1 Name,Option1 Value,Metafield: details.grape [list.single_line_text_field],Metafield: details.region1 [single_line_text_field],Metafield: details.color [single_line_text_field],Metafield: details.subregion [single_line_text_field],Metafield: details.producer [single_line_text_field],Metafield: details.points [list.single_line_text_field],Metafield: details.country [single_line_text_field],Metafield: details.vintagenv [single_line_text_field],Metafield: custom.sparkling [single_line_text_field],Metafield: details.body [number_integer],Metafield: details.acid [number_integer],Metafield: details.tannin [number_integer],Metafield: details.classification [single_line_text_field]
+antoine-jobard-meursault-en-la-barre-2018,"Antoine Jobard: Meursault, En la Barre 2018",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Meursault,Antoine Jobard,"[""90-92 points | Vinous"",""89 points | Wine Advocate""]",France,2018,Still,3,4,,
+chateau-beaumont-haut-medoc-2018,Chateau Beaumont: Haut-Medoc 2018,Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Haut-Medoc,Beaumont,"[""88-90 points | Wine Advocate""]",France,2018,Still,3,3,3,
+chateau-beaumont-haut-medoc-2018,Chateau Beaumont: Haut-Medoc 2018,Wine,Size,1.5L,,,,,,,,,,,,,
+alban-vineyards-edna-valley-lorraine-alban-estate-syrah-2012,"Alban Vineyards: Edna Valley, Lorraine Alban Estate Syrah 2012",Wine,Size,1.5L,"[""Syrah""]",California,Red,Edna Valley,Alban Vineyards,"[""95 points | Vinous"",""98 points | Wine Advocate""]",United States,2012,Still,4,3,4,
+antoine-jobard-meursault-les-tillets-2018,"Antoine Jobard: Meursault, Les Tillets 2018",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Meursault,Antoine Jobard,,France,2018,Still,3,4,,
+antoine-jobard-meursault-premier-cru-blagny-2018,"Antoine Jobard: Meursault, Premier Cru, Blagny 2018",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Meursault,Antoine Jobard,,France,2018,Still,3,4,,Premier Cru
+benjamin-leroux-meursault-premier-cru-genevrieres-2020,"Benjamin Leroux: Meursault, Premier Cru, Genevrieres 2020",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Meursault,Benjamin Leroux,"[""91-93 points | Vinous""]",France,2020,Still,3,4,,Premier Cru
+antoine-jobard-saint-aubin-premier-cru-sur-le-sentier-du-clou-2016,"Antoine Jobard: Saint-Aubin, Premier Cru, Sur le Sentier du Clou 2016",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Saint-Aubin,Antoine Jobard,"[""90-92 points | Wine Advocate""]",France,2016,Still,3,4,,Premier Cru
+antoine-jobard-saint-aubin-premier-cru-sur-le-sentier-du-clou-2018,"Antoine Jobard: Saint-Aubin, Premier Cru, Sur le Sentier du Clou 2018",Wine,Size,750ml,"[""Chardonnay""]",Burgundy,White,Saint-Aubin,Antoine Jobard,"[""92 points | Wine Advocate""]",France,2018,Still,3,4,,Premier Cru
+antoine-jobard-saint-aubin-premier-cru-sur-le-sentier-du-clou-2018,"Antoine Jobard: Saint-Aubin, Premier Cru, Sur le Sentier du Clou 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+bernard-levet-cote-rotie-amethyste-2018,"Bernard Levet: Cote Rotie, Amethyste 2018",Wine,Size,1.5L,"[""Syrah""]",Rhone,Red,Cote Rotie,Bernard Levet,,France,2018,Still,4,3,4,
+bonneau-vdf-rhone-les-rouliers-nv,"Bonneau: VdF Rhone, Les Rouliers NV",Wine,Size,750ml,"[""Grenache"",""Cinsault""]",Rhone,Red,NA,Bonneau,,France,NV,Still,4,2,3,
+bonneau-vdf-rhone-les-rouliers-nv,"Bonneau: VdF Rhone, Les Rouliers NV",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,375ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Pauillac,Lynch-Bages,"[""96 points | Vinous"",""96 points | Wine Advocate""]",France,2018,Still,4,3,4,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,3L,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,6L,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,9L,,,,,,,,,,,,,
+chateau-lynch-bages-pauillac-5eme-cru-classe-2018,"Chateau Lynch-Bages: Pauillac, 5eme Cru Classe 2018",Wine,Size,15L,,,,,,,,,,,,,
+champy-mazis-chambertin-grand-cru-2005,"Champy: Mazis-Chambertin, Grand Cru 2005",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Mazis-Chambertin,Champy,,France,2005,Still,3,3,3,Grand Cru
+chateau-belair-monange-saint-emilion-grand-cru-premier-grand-cru-classe-b-2018,"Chateau Belair-Monange: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2018",Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Saint-Emilion Grand Cru,Belair-Monange,"[""96 points | Vinous"",""98 points | Wine Advocate""]",France,2018,Still,4,3,4,Premier Grand Cru Classe B
+chateau-belair-monange-saint-emilion-grand-cru-premier-grand-cru-classe-b-2018,"Chateau Belair-Monange: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-brane-cantenac-margaux-2eme-cru-classe-2018,"Chateau Brane-Cantenac: Margaux, 2eme Cru Classe 2018",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Margaux,Brane-Cantenac,"[""95 points | Vinous"",""93+ points | Wine Advocate""]",France,2018,Still,4,3,4,2eme Cru Classe
+chateau-brane-cantenac-margaux-2eme-cru-classe-2018,"Chateau Brane-Cantenac: Margaux, 2eme Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Petit Verdot""]",Bordeaux,Red,Saint-Estephe,Calon Segur,"[""98 points | Vinous"",""93+ points | Wine Advocate""]",France,2019,Still,4,3,4,3eme Cru Classe
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,15L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,18L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2019,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2018,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2018",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Petit Verdot""]",Bordeaux,Red,Saint-Estephe,Calon Segur,"[""96-98 points | Wine Advocate""]",France,2018,Still,4,3,4,3eme Cru Classe
+chateau-calon-segur-saint-estephe-3eme-cru-classe-2018,"Chateau Calon Segur: Saint-Estephe, 3eme Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,375ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Saint-Emilion Grand Cru,Canon,"[""98 points | Vinous"",""97 points | Wine Advocate""]",France,2019,Still,4,3,4,Premier Grand Cru Classe B
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,15L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2019,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2019",Wine,Size,18L,,,,,,,,,,,,,
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2018,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2018",Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Saint-Emilion Grand Cru,Canon,"[""98 points | Vinous"",""97+ points | Wine Advocate""]",France,2018,Still,4,3,4,Premier Grand Cru Classe B
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2018,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-certan-de-may-pomerol-2011,Chateau Certan de May: Pomerol 2011,Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc"",""Cabernet Sauvignon"",""Petit Verdot""]",Bordeaux,Red,Pomerol,Certan de May,,France,2011,Still,4,3,4,
+chateau-corbin-saint-emilion-grand-cru-grand-cru-classe-2016,"Chateau Corbin: Saint-Emilion Grand Cru, Grand Cru Classe 2016",Wine,Size,750ml,"[""Merlot"",""Cabernet Franc"",""Cabernet Sauvignon""]",Bordeaux,Red,Saint-Emilion Grand Cru,Corbin,"[""92-94 points | Wine Advocate""]",France,2016,Still,4,3,4,Grand Cru Classe
+chateau-corbin-saint-emilion-grand-cru-grand-cru-classe-2016,"Chateau Corbin: Saint-Emilion Grand Cru, Grand Cru Classe 2016",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-corbin-saint-emilion-grand-cru-grand-cru-classe-2016,"Chateau Corbin: Saint-Emilion Grand Cru, Grand Cru Classe 2016",Wine,Size,3L,,,,,,,,,,,,,
+chateau-figeac-saint-emilion-grand-cru-premier-grand-cru-classe-a-2018,"Chateau Figeac: Saint-Emilion Grand Cru, Premier Grand Cru Classe A 2018",Wine,Size,15L,"[""Cabernet Franc"",""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Saint-Emilion Grand Cru,Figeac,,France,2018,Still,4,3,4,Premier Grand Cru Classe A
+chateau-figeac-saint-emilion-grand-cru-premier-grand-cru-classe-a-2018,"Chateau Figeac: Saint-Emilion Grand Cru, Premier Grand Cru Classe A 2018",Wine,Size,18L,,,,,,,,,,,,,
+chateau-figeac-saint-emilion-grand-cru-premier-grand-cru-classe-a-2018,"Chateau Figeac: Saint-Emilion Grand Cru, Premier Grand Cru Classe A 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-desclans-cotes-de-provence-rock-angel-2021,"Chateau d'Esclans: Cotes de Provence, Rock Angel 2021",Wine,Size,1.5L,"[""Grenache"",""Vermentino""]",Provence,Rose,Cotes de Provence,d'Esclans,,France,2021,Still,4,2,,
+chateau-darmailhac-pauillac-5eme-cru-classe-2019,"Chateau d'Armailhac: Pauillac, 5eme Cru Classe 2019",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,d'Armailhac,"[""92-94 points | Vinous"",""93 points | Wine Advocate""]",France,2019,Still,4,3,4,5eme Cru Classe
+chateau-darmailhac-pauillac-5eme-cru-classe-2019,"Chateau d'Armailhac: Pauillac, 5eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-giscours-margaux-3eme-cru-classe-2016,"Chateau Giscours: Margaux, 3eme Cru Classe 2016",Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Margaux,Giscours,"[""94 points | Vinous"",""93-95 points | Wine Advocate""]",France,2016,Still,4,3,4,3eme Cru Classe
+chateau-giscours-margaux-3eme-cru-classe-2017,"Chateau Giscours: Margaux, 3eme Cru Classe 2017",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Margaux,Giscours,"[""90-92 points | Wine Advocate""]",France,2017,Still,4,3,4,3eme Cru Classe
+chateau-giscours-margaux-3eme-cru-classe-2017,"Chateau Giscours: Margaux, 3eme Cru Classe 2017",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-grand-village-blanc-bordeaux-2014,"Chateau Grand Village Blanc, Bordeaux 2014",Wine,Size,1.5L,"[""Sauvignon Blanc"",""Semillon""]",Bordeaux,White,NA,Grand Village,"[""87-89 points | Vinous"",""89-91 points | Wine Advocate""]",France,2014,Still,3,4,,
+chateau-grand-village-blanc-bordeaux-2015,"Chateau Grand Village Blanc, Bordeaux 2015",Wine,Size,1.5L,"[""Sauvignon Blanc"",""Semillon""]",Bordeaux,White,NA,Grand Village,"[""92 points | Vinous"",""91 points | Wine Advocate""]",France,2015,Still,3,4,,
+chateau-grand-village-bordeaux-superieur-2014,Chateau Grand Village: Bordeaux Superieur 2014,Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Bordeaux Superieur,Grand Village,"[""86-88 points | Wine Advocate""]",France,2014,Still,4,3,4,
+chateau-haut-brion-pessac-leognan-premier-cru-classe-2009,"Chateau Haut-Brion: Pessac-Leognan, Premier Cru Classe 2009",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pessac-Leognan,Haut-Brion,"[""97 points | Vinous"",""100 points | Wine Advocate""]",France,2009,Still,4,3,4,Premier Cru Classe
+chateau-haut-brion-pessac-leognan-premier-cru-classe-2009,"Chateau Haut-Brion: Pessac-Leognan, Premier Cru Classe 2009",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-haut-brion-pessac-leognan-premier-cru-classe-2009,"Chateau Haut-Brion: Pessac-Leognan, Premier Cru Classe 2009",Wine,Size,6L,,,,,,,,,,,,,
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2018,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,6L,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Pauillac,Lafite Rothschild,,France,2018,Still,4,3,4,Premier Cru Classe
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2018,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2018,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-la-fleur-petrus-pomerol-2019,Chateau La Fleur-Petrus: Pomerol 2019,Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,La Fleur-Petrus,"[""98 points | Vinous"",""96 points | Wine Advocate""]",France,2019,Still,4,3,4,
+chateau-la-fleur-petrus-pomerol-2019,Chateau La Fleur-Petrus: Pomerol 2019,Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-la-fleur-petrus-pomerol-2019,Chateau La Fleur-Petrus: Pomerol 2019,Wine,Size,6L,,,,,,,,,,,,,
+chateau-la-fleur-petrus-pomerol-2019,Chateau La Fleur-Petrus: Pomerol 2019,Wine,Size,3L,,,,,,,,,,,,,
+chateau-lafleur-pomerol-2013,Chateau Lafleur: Pomerol 2013,Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,Lafleur,"[""89-91 points | Vinous"",""89-91 points | Wine Advocate""]",France,2013,Still,4,3,4,
+chateau-lafleur-pomerol-2013,Chateau Lafleur: Pomerol 2013,Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2019,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Lafite Rothschild,"[""97-99 points | Wine Advocate""]",France,2019,Still,4,3,4,Premier Cru Classe
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2019,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2019,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-lafite-rothschild-pauillac-premier-cru-classe-2019,"Chateau Lafite Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-latour-pauillac-premier-cru-classe-2014,"Chateau Latour: Pauillac, Premier Cru Classe 2014",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Latour,"[""96 points | Vinous"",""97 points | Wine Advocate""]",France,2014,Still,4,3,4,Premier Cru Classe
+chateau-latour-pauillac-premier-cru-classe-2014,"Chateau Latour: Pauillac, Premier Cru Classe 2014",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-latour-pauillac-premier-cru-classe-2013,"Chateau Latour: Pauillac, Premier Cru Classe 2013",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Pauillac,Latour,"[""92 points | Vinous"",""93 points | Wine Advocate""]",France,2013,Still,4,3,4,Premier Cru Classe
+chateau-latour-pauillac-premier-cru-classe-2013,"Chateau Latour: Pauillac, Premier Cru Classe 2013",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-leglise-clinet-pomerol-2014,Chateau L'Eglise-Clinet: Pomerol 2014,Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,L'Eglise-Clinet,"[""94 - 97 points | Vinous"",""95 points | Wine Advocate""]",France,2014,Still,4,3,4,
+chateau-leglise-clinet-pomerol-2014,Chateau L'Eglise-Clinet: Pomerol 2014,Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-leglise-clinet-pomerol-2014,Chateau L'Eglise-Clinet: Pomerol 2014,Wine,Size,3L,,,,,,,,,,,,,
+chateau-leoville-las-cases-saint-julien-2eme-cru-classe-2019,"Chateau Leoville Las Cases: Saint-Julien, 2eme Cru Classe 2019",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Petit Verdot""]",Bordeaux,Red,Saint-Julien,Leoville Las Cases,"[""97 points | Vinous""]",France,2019,Still,4,3,4,2eme Cru Classe
+chateau-leoville-las-cases-saint-julien-2eme-cru-classe-2019,"Chateau Leoville Las Cases: Saint-Julien, 2eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-margaux-margaux-premier-cru-classe-2019,"Chateau Margaux: Margaux, Premier Cru Classe 2019",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Margaux,Margaux,"[""98-100 points | Vinous""]",France,2019,Still,4,3,4,Premier Cru Classe
+chateau-margaux-margaux-premier-cru-classe-2019,"Chateau Margaux: Margaux, Premier Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-margaux-margaux-premier-cru-classe-2019,"Chateau Margaux: Margaux, Premier Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-margaux-margaux-premier-cru-classe-2019,"Chateau Margaux: Margaux, Premier Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-marsau-francs-cotes-de-bordeaux-2018,Chateau Marsau: Francs-Cotes de Bordeaux 2018,Wine,Size,750ml,"[""Merlot""]",Bordeaux,Red,Francs-Cotes de Bordeaux,Marsau,,France,2018,Still,3,3,4,
+chateau-marsau-francs-cotes-de-bordeaux-2018,Chateau Marsau: Francs-Cotes de Bordeaux 2018,Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-marsau-francs-cotes-de-bordeaux-2018,Chateau Marsau: Francs-Cotes de Bordeaux 2018,Wine,Size,3L,,,,,,,,,,,,,
+chateau-montaiguillon-montagne-saint-emilion-2015,Chateau Montaiguillon: Montagne-Saint-Emilion 2015,Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc"",""Cabernet Sauvignon""]",Bordeaux,Red,Montagne-Saint-Emilion,Montaiguillon,,France,2015,Still,4,3,4,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2017,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2017",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""97-99 points | Wine Advocate""]",France,2017,Still,4,3,4,Premier Cru Classe
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2017,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2017",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2001,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2001",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""91 points | Vinous"",""89 points | Wine Advocate""]",France,2001,Still,4,3,4,Premier Cru Classe
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2001,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2001",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-montrose-saint-estephe-2eme-cru-classe-2015,"Chateau Montrose: Saint-Estephe, 2eme Cru Classe 2015",Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",Bordeaux,Red,Saint-Estephe,Montrose,"[""93 points | Vinous"",""95 points | Wine Advocate""]",France,2015,Still,4,3,4,2eme Cru Classe
+chateau-montrose-saint-estephe-2eme-cru-classe-2015,"Chateau Montrose: Saint-Estephe, 2eme Cru Classe 2015",Wine,Size,6L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2018,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""99 points | Vinous"",""99 points | Wine Advocate""]",France,2018,Still,4,3,4,Premier Cru Classe
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2018,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2018,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,3L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2018,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2018",Wine,Size,6L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2019,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""99 points | Vinous"",""98+ points | Wine Advocate""]",France,2019,Still,4,3,4,Premier Cru Classe
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2019,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-2019,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-pichon-baron-pauillac-2eme-cru-classe-2019,"Chateau Pichon Baron: Pauillac, 2eme Cru Classe 2019",Wine,Size,375ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Pichon Baron,"[""97 points | Vinous"",""97+ points | Wine Advocate""]",France,2019,Still,4,3,4,2eme Cru Classe
+chateau-pichon-baron-pauillac-2eme-cru-classe-2019,"Chateau Pichon Baron: Pauillac, 2eme Cru Classe 2019",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-pichon-baron-pauillac-2eme-cru-classe-2019,"Chateau Pichon Baron: Pauillac, 2eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2018,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2018",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Pichon Longueville Comtesse de Lalande,"[""97 points | Vinous"",""97+ points | Wine Advocate""]",France,2018,Still,4,3,4,2eme Cru Classe
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2018,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2017,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2017",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Pichon Longueville Comtesse de Lalande,"[""95-97 points | Wine Advocate""]",France,2017,Still,4,3,4,2eme Cru Classe
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2017,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2017",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,375ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Pauillac,Pontet-Canet,"[""96 points | Vinous"",""93 points | Wine Advocate""]",France,2019,Still,4,3,4,5eme Cru Classe
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,12L,,,,,,,,,,,,,
+chateau-pontet-canet-pauillac-5eme-cru-classe-2019,"Chateau Pontet-Canet: Pauillac, 5eme Cru Classe 2019",Wine,Size,15L,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2019,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2019",Wine,Size,375ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Pichon Longueville Comtesse de Lalande,"[""99 points | Vinous"",""98 points | Wine Advocate""]",France,2019,Still,4,3,4,2eme Cru Classe
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2019,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2019",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2019,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2019,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-pichon-longueville-comtesse-de-lalande-pauillac-2eme-cru-classe-2019,"Chateau Pichon Longueville Comtesse de Lalande: Pauillac, 2eme Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+dom-perignon-luminous-rose-2008,Dom Perignon: Luminous Rose 2008,Wine,Size,750ml,"[""Pinot Noir"",""Chardonnay""]",Champagne,Rose,NA,Dom Perignon,,France,2008,Sparkling,1,4,,
+dom-perignon-luminous-rose-2008,Dom Perignon: Luminous Rose 2008,Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,375ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",Bordeaux,Red,Margaux,Rauzan-Segla,"[""97 points | Vinous"",""96 points | Wine Advocate""]",France,2019,Still,4,3,4,2eme Cru Classe
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,750ml,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,3L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,6L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,9L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,12L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,15L,,,,,,,,,,,,,
+chateau-rauzan-segla-margaux-2eme-cru-classe-2019,"Chateau Rauzan-Segla: Margaux, 2eme Cru Classe 2019",Wine,Size,18L,,,,,,,,,,,,,
+chateau-trotanoy-pomerol-2016,Chateau Trotanoy: Pomerol 2016,Wine,Size,750ml,"[""Merlot"",""Cabernet Franc"",""Cabernet Sauvignon"",""Malbec""]",Bordeaux,Red,Pomerol,Trotanoy,"[""95 - 98 points | Vinous"",""96-98 points | Wine Advocate""]",France,2016,Still,4,3,4,
+chateau-trotanoy-pomerol-2016,Chateau Trotanoy: Pomerol 2016,Wine,Size,1.5L,,,,,,,,,,,,,
+dom-perignon-luminous-rose-2006,Dom Perignon: Luminous Rose 2006,Wine,Size,1.5L,"[""Chardonnay"",""Pinot Noir""]",Champagne,Rose,NA,Dom Perignon,,France,2006,Sparkling,1,4,,
+dom-perignon-x-lady-gaga-luminous-rose-2008,Dom Perignon: x Lady Gaga Luminous Rose 2008,Wine,Size,750ml,"[""Pinot Noir"",""Chardonnay""]",Champagne,Rose,NA,Dom Perignon,,France,2008,Sparkling,1,4,,
+dom-perignon-x-lady-gaga-luminous-rose-2008,Dom Perignon: x Lady Gaga Luminous Rose 2008,Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-arlaud-morey-saint-denis-2019,Domaine Arlaud: Morey-Saint-Denis 2019,Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Morey-Saint-Denis,Arlaud,"[""87-89 points | Vinous""]",France,2019,Still,3,3,3,
+domaine-armand-rousseau-chambertin-clos-de-beze-grand-cru-2015,"Domaine Armand Rousseau: Chambertin-Clos de Beze, Grand Cru 2015",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Chambertin-Clos de Beze,Armand Rousseau,"[""95-97 points | Vinous"",""97 points | Wine Advocate""]",France,2015,Still,3,3,3,Grand Cru
+domaine-comte-georges-de-vogue-musigny-grand-cru-cuvee-vieilles-vignes-2015,"Domaine Comte Georges de Vogue: Musigny, Grand Cru, Cuvee Vieilles Vignes 2015",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Musigny,Comte Georges de Vogue,"[""94 - 97 points | Vinous"",""95-97 points | Wine Advocate""]",France,2015,Still,3,3,3,Grand Cru
+domaine-comte-georges-de-vogue-musigny-grand-cru-cuvee-vieilles-vignes-2019,"Domaine Comte Georges de Vogue: Musigny, Grand Cru, Cuvee Vieilles Vignes 2019",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Musigny,Comte Georges de Vogue,,France,2019,Still,3,3,3,Grand Cru
+domaine-comte-georges-de-vogue-musigny-grand-cru-cuvee-vieilles-vignes-2019,"Domaine Comte Georges de Vogue: Musigny, Grand Cru, Cuvee Vieilles Vignes 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-georges-vernay-cote-rotie-blonde-du-seigneur-2016,"Domaine Georges Vernay: Cote Rotie, Blonde du Seigneur 2016",Wine,Size,1.5L,"[""Syrah""]",Rhone,Red,Cote Rotie,Georges Vernay,"[""93 points | Wine Advocate""]",France,2016,Still,4,3,4,
+domaine-genot-boulanger-corton-charlemagne-grand-cru-2019,"Domaine Genot-Boulanger: Corton-Charlemagne, Grand Cru 2019",Wine,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Corton-Charlemagne,Genot-Boulanger,"[""90-92 points | Vinous""]",France,2019,Still,2,4,,Grand Cru
+domaine-des-lambrays-clos-des-lambrays-grand-cru-2019,"Domaine des Lambrays: Clos des Lambrays, Grand Cru 2019",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Clos des Lambrays,des Lambrays,,France,2019,Still,3,3,3,Grand Cru
+domaine-jamet-les-plaisirs-dharys-vdf-2016,Domaine Jamet: Les Plaisirs d'Harys VdF 2016,Wine,Size,1.5L,"[""Syrah""]",Rhone,Red,NA,Jamet,,France,2016,Still,4,3,4,
+domaine-marquis-dangerville-volnay-premier-cru-champans-2017,"Domaine Marquis d'Angerville: Volnay, Premier Cru, Champans 2017",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Volnay,Marquis d'Angerville,"[""92-94 points | Vinous"",""91-93 points | Wine Advocate""]",France,2017,Still,3,3,3,Premier Cru
+domaine-nicole-lamarche-echezeaux-grand-cru-2018,"Domaine Nicole Lamarche: Echezeaux, Grand Cru 2018",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Echezeaux,Nicole Lamarche,"[""91-93 points | Vinous""]",France,2018,Still,3,3,3,Grand Cru
+domaine-nicole-lamarche-echezeaux-grand-cru-2018,"Domaine Nicole Lamarche: Echezeaux, Grand Cru 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-nicole-lamarche-clos-de-vougeot-grand-cru-2017,"Domaine Nicole Lamarche: Clos de Vougeot, Grand Cru 2017",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Clos de Vougeot,Nicole Lamarche,"[""92 points | Vinous""]",France,2017,Still,3,3,3,Grand Cru
+domaine-nicole-lamarche-clos-de-vougeot-grand-cru-2016,"Domaine Nicole Lamarche: Clos de Vougeot, Grand Cru 2016",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Clos de Vougeot,Nicole Lamarche,"[""90-92 points | Wine Advocate""]",France,2016,Still,3,3,3,Grand Cru
+domaine-nicole-lamarche-la-grande-rue-grand-cru-2018,"Domaine Nicole Lamarche: La Grande Rue, Grand Cru 2018",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,La Grande Rue,Nicole Lamarche,,France,2018,Still,3,3,3,Grand Cru
+domaine-nicole-lamarche-la-grande-rue-grand-cru-2018,"Domaine Nicole Lamarche: La Grande Rue, Grand Cru 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-nicole-lamarche-la-grande-rue-grand-cru-2017,"Domaine Nicole Lamarche: La Grande Rue, Grand Cru 2017",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,La Grande Rue,Nicole Lamarche,"[""92-94 points | Vinous""]",France,2017,Still,3,3,3,Grand Cru
+domaine-nicole-lamarche-la-grande-rue-grand-cru-2017,"Domaine Nicole Lamarche: La Grande Rue, Grand Cru 2017",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-rostaing-cote-rotie-la-landonne-2016,"Domaine Rostaing: Cote Rotie, La Landonne 2016",Wine,Size,1.5L,"[""Syrah""]",Rhone,Red,Cote Rotie,Rostaing,"[""94-96 points | Vinous"",""97 points | Wine Advocate""]",France,2016,Still,4,3,4,
+domaine-rostaing-cote-rotie-la-landonne-2017,"Domaine Rostaing: Cote Rotie, La Landonne 2017",Wine,Size,1.5L,"[""Syrah""]",Rhone,Red,Cote Rotie,Rostaing,"[""94 points | Vinous"",""95-97 points | Wine Advocate""]",France,2017,Still,4,3,4,
+domaine-tempier-bandol-tourtine-2013,Domaine Tempier: Bandol Tourtine 2013,Wine,Size,1.5L,"[""Mourvedre"",""Grenache"",""Cinsault""]",Provence,Red,Bandol,Tempier,"[""92 points | Wine Advocate""]",France,2013,Still,4,3,4,
+domaine-tempier-bandol-tourtine-2012,Domaine Tempier: Bandol Tourtine 2012,Wine,Size,1.5L,"[""Mourvedre"",""Grenache"",""Cinsault""]",Provence,Red,Bandol,Tempier,"[""94 points | Wine Advocate""]",France,2012,Still,4,3,4,
+domaine-tempier-bandol-tourtine-2014,Domaine Tempier: Bandol Tourtine 2014,Wine,Size,1.5L,"[""Mourvedre"",""Grenache"",""Cinsault""]",Provence,Red,Bandol,Tempier,"[""91-93 points | Wine Advocate""]",France,2014,Still,4,3,4,
+domaine-tempier-bandol-tourtine-2016,Domaine Tempier: Bandol Tourtine 2016,Wine,Size,1.5L,"[""Grenache"",""Mourvedre"",""Cinsault""]",Provence,Red,Bandol,Tempier,,France,2016,Still,4,2,3,
+domaine-vacheron-sancerre-les-romains-2019,Domaine Vacheron: Sancerre Les Romains 2019,Wine,Size,1.5L,"[""Sauvignon Blanc""]",Loire,White,Sancerre,Vacheron,,France,2019,Still,2,4,,
+giacomo-conterno-barbera-dalba-2012,Giacomo Conterno: Barbera d'Alba 2012,Wine,Size,1.5L,"[""Barbera""]",Piedmont,Red,Barbera d'Alba,Giacomo Conterno,"[""94 points | Vinous"",""94 points | Wine Advocate""]",Italy,2012,Still,3,4,2,
+gerard-boulay-sancerre-mont-damnes-2017,Gerard Boulay: Sancerre Mont Damnes 2017,Wine,Size,1.5L,"[""Sauvignon Blanc""]",Loire,White,Sancerre,Gerard Boulay,,France,2017,Still,2,4,,
+domaine-tempier-bandol-tourtine-2017,Domaine Tempier: Bandol Tourtine 2017,Wine,Size,1.5L,"[""Grenache"",""Mourvedre"",""Cinsault""]",Provence,Red,Bandol,Tempier,,France,2017,Still,4,2,3,
+giacomo-conterno-barolo-2013,Giacomo Conterno: Barolo 2013,Wine,Size,750ml,"[""Nebbiolo""]",Piedmont,Red,Barolo,Giacomo Conterno,"[""99 points | Vinous"",""98 points | Wine Advocate""]",Italy,2013,Still,4,4,5,
+giacomo-conterno-barolo-2013,Giacomo Conterno: Barolo 2013,Wine,Size,1.5L,,,,,,,,,,,,,
+giacomo-conterno-barolo-cerretta-2011,"Giacomo Conterno: Barolo, Cerretta 2011",Wine,Size,1.5L,"[""Nebbiolo""]",Piedmont,Red,Barolo,Giacomo Conterno,"[""95 points | Vinous""]",Italy,2011,Still,4,4,5,
+giacomo-conterno-barolo-cerretta-2011,"Giacomo Conterno: Barolo, Cerretta 2011",Wine,Size,750ml,,,,,,,,,,,,,
+giuseppe-mascarello-e-figlio-barolo-monprivato-2012,"Giuseppe Mascarello e Figlio: Barolo, Monprivato 2012",Wine,Size,1.5L,"[""Nebbiolo""]",Piedmont,Red,Barolo,Giuseppe Mascarello e Figlio,,Italy,2012,Still,4,4,5,
+giacomo-conterno-barolo-francia-2012,"Giacomo Conterno: Barolo, Francia 2012",Wine,Size,1.5L,"[""Nebbiolo""]",Piedmont,Red,Barolo,Giacomo Conterno,"[""94 - 97 points | Vinous"",""95 points | Wine Advocate""]",Italy,2012,Still,4,4,5,
+giacomo-conterno-barolo-francia-2012,"Giacomo Conterno: Barolo, Francia 2012",Wine,Size,750ml,,,,,,,,,,,,,
+heitz-cellar-napa-valley-marthas-vineyard-cabernet-sauvignon-2013,"Heitz Cellar: Napa Valley, Martha's Vineyard Cabernet Sauvignon 2013",Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Heitz Cellar,,United States,2013,Still,4,3,4,
+heitz-cellar-napa-valley-marthas-vineyard-cabernet-sauvignon-2008,"Heitz Cellar: Napa Valley, Martha's Vineyard Cabernet Sauvignon 2008",Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Heitz Cellar,"[""90 points | Vinous""]",United States,2008,Still,4,3,4,
+heitz-cellar-napa-valley-marthas-vineyard-cabernet-sauvignon-2009,"Heitz Cellar: Napa Valley, Martha's Vineyard Cabernet Sauvignon 2009",Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Heitz Cellar,"[""93 points | Vinous""]",United States,2009,Still,4,3,4,
+heitz-cellar-napa-valley-marthas-vineyard-cabernet-sauvignon-2010,"Heitz Cellar: Napa Valley, Martha's Vineyard Cabernet Sauvignon 2010",Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Heitz Cellar,"[""96 points | Vinous""]",United States,2010,Still,4,3,4,
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2014,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2014",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Jacques-Frederic Mugnier,"[""92-94 points | Vinous"",""91 points | Wine Advocate""]",France,2014,Still,3,3,3,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2014,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2014",Wine,Size,1.5L,,,,,,,,,,,,,
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2017,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2017",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Jacques-Frederic Mugnier,"[""91 points | Vinous"",""91+ points | Wine Advocate""]",France,2017,Still,3,3,3,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2017,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2017",Wine,Size,1.5L,,,,,,,,,,,,,
+henri-bonneau-chateauneuf-du-pape-reserve-celestins-2016,"Henri Bonneau: Chateauneuf-du-Pape, Reserve Celestins 2016",Wine,Size,750ml,"[""Grenache""]",Rhone,Red,Chateauneuf-du-Pape,Henri Bonneau,,France,2016,Still,4,2,3,
+henri-bonneau-chateauneuf-du-pape-reserve-celestins-2016,"Henri Bonneau: Chateauneuf-du-Pape, Reserve Celestins 2016",Wine,Size,1.5L,,,,,,,,,,,,,
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2019,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2019",Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Jacques-Frederic Mugnier,,France,2019,Still,3,3,3,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2019,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2019",Wine,Size,750ml,,,,,,,,,,,,,
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2018,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2018",Wine,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Jacques-Frederic Mugnier,,France,2018,Still,3,3,3,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2018,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+jl-chave-selection-cotes-du-rhone-mon-coeur-2019,"JL Chave Selection: Cotes du Rhone, Mon Coeur 2019",Wine,Size,750ml,"[""Syrah"",""Grenache""]",Rhone,Red,Cotes du Rhone,JL Chave Selection,"[""91 points | Vinous""]",France,2019,Still,4,3,4,
+jl-chave-selection-cotes-du-rhone-mon-coeur-2019,"JL Chave Selection: Cotes du Rhone, Mon Coeur 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+krug-clos-du-mesnil-2006,Krug: Clos du Mesnil 2006,Wine,Size,750ml,"[""Chardonnay""]",Champagne,White,NA,Krug,"[""97 points | Vinous"",""97 points | Wine Advocate""]",France,2006,Sparkling,1,4,,
+krug-clos-du-mesnil-2006,Krug: Clos du Mesnil 2006,Wine,Size,1.5L,,,,,,,,,,,,,
+julien-sunier-fleurie-2017,Julien Sunier: Fleurie 2017,Wine,Size,1.5L,"[""Gamay""]",Beaujolais,Red,Fleurie,Julien Sunier,,France,2017,Still,3,3,2,
+krug-grande-cuvee-168eme-edition-nv,Krug: Grande Cuvee 168eme Edition NV,Wine,Size,1.5L,"[""Pinot Noir"",""Chardonnay"",""Pinot Meunier""]",Champagne,White,NA,Krug,"[""93 points | Vinous"",""96 points | Wine Advocate""]",France,NV,Sparkling,1,4,,
+krug-vintage-brut-1998,Krug: Vintage Brut 1998,Wine,Size,750ml,"[""Chardonnay"",""Pinot Noir""]",Champagne,White,,Krug,"[""94 points | Vinous"",""94 points | Wine Advocate""]",France,1998,Sparkling,1,4,,
+krug-vintage-brut-1998,Krug: Vintage Brut 1998,Wine,Size,1.5L,,,,,,,,,,,,,
+la-clarte-de-haut-brion-pessac-leognan-2015,"La Clarte de Haut-Brion, Pessac-Leognan 2015",Wine,Size,1.5L,"[""Semillon"",""Sauvignon Blanc""]",Bordeaux,White,Pessac-Leognan,Haut-Brion,"[""92 points | Vinous"",""90 points | Wine Advocate""]",France,2015,Still,3,4,,
+la-clarte-de-haut-brion-pessac-leognan-2015,"La Clarte de Haut-Brion, Pessac-Leognan 2015",Wine,Size,3L,,,,,,,,,,,,,
+la-clarte-de-haut-brion-pessac-leognan-2015,"La Clarte de Haut-Brion, Pessac-Leognan 2015",Wine,Size,6L,,,,,,,,,,,,,
+la-clarte-de-haut-brion-pessac-leognan-2016,"La Clarte de Haut-Brion, Pessac-Leognan 2016",Wine,Size,1.5L,"[""Semillon"",""Sauvignon Blanc""]",Bordeaux,White,Pessac-Leognan,Haut-Brion,"[""88 - 91 points | Vinous"",""87-89 points | Wine Advocate""]",France,2016,Still,3,4,,
+la-clarte-de-haut-brion-pessac-leognan-2016,"La Clarte de Haut-Brion, Pessac-Leognan 2016",Wine,Size,3L,,,,,,,,,,,,,
+la-clarte-de-haut-brion-pessac-leognan-2016,"La Clarte de Haut-Brion, Pessac-Leognan 2016",Wine,Size,6L,,,,,,,,,,,,,
+krug-rose-20eme-edition-nv,Krug: Rose 20eme Edition NV,Wine,Size,1.5L,"[""Pinot Noir"",""Chardonnay""]",Champagne,Rose,NA,Krug,,France,NV,Sparkling,1,4,,
+krug-rose-20eme-edition-nv,Krug: Rose 20eme Edition NV,Wine,Size,3L,,,,,,,,,,,,,
+le-petit-cheval-blanc-bordeaux-2019,"Le Petit Cheval Blanc, Bordeaux 2019",Wine,Size,750ml,"[""Semillon"",""Sauvignon Blanc""]",Bordeaux,White,NA,Cheval Blanc,"[""91 points | Vinous""]",France,2019,Still,3,4,,
+le-petit-cheval-blanc-bordeaux-2019,"Le Petit Cheval Blanc, Bordeaux 2019",Wine,Size,1.5L,,,,,,,,,,,,,
+la-clarte-de-haut-brion-pessac-leognan-2018,"La Clarte de Haut-Brion, Pessac-Leognan 2018",Wine,Size,750ml,"[""Sauvignon Blanc"",""Semillon""]",Bordeaux,White,Pessac-Leognan,Haut-Brion,"[""91 points | Vinous"",""90 points | Wine Advocate""]",France,2018,Still,3,4,,
+la-clarte-de-haut-brion-pessac-leognan-2018,"La Clarte de Haut-Brion, Pessac-Leognan 2018",Wine,Size,1.5L,,,,,,,,,,,,,
+le-pauillac-de-chateau-latour-pauillac-2012,"Chateau Latour: Pauillac, Premier Cru Classe 2012 (Ex Chateau)",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot""]",Bordeaux,Red,Pauillac,Latour,"[""96 points | Vinous"",""96+ points | Wine Advocate""]",France,2012,Still,4,3,3,
+le-pauillac-de-chateau-latour-pauillac-2012,"Chateau Latour: Pauillac, Premier Cru Classe 2012 (Ex Chateau)",Wine,Size,1.5L,,,,,,,,,,,,,
+les-perrieres-bordeaux-superieur-2014,"Les Perrieres, Bordeaux Superieur 2014",Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Bordeaux Superieur,Lafleur,"[""90-92 points | Wine Advocate""]",France,2014,Still,4,3,3,
+les-perrieres-bordeaux-superieur-2015,"G Acte, Bordeaux Superieur 2015",Wine,Size,1.5L,"[""Merlot""]",Bordeaux,Red,Bordeaux Superieur,Lafleur,,France,2015,Still,3,3,3,
+les-perrieres-bordeaux-superieur-2015,"G Acte, Bordeaux Superieur 2015",Wine,Size,3L,,,,,,,,,,,,,
+louis-roederer-cristal-2006,Louis Roederer: Cristal 2006,Wine,Size,1.5L,"[""Pinot Noir"",""Chardonnay""]",Champagne,White,NA,Louis Roederer,"[""95 points | Vinous"",""93 points | Wine Advocate""]",France,2006,Sparkling,1,4,,
+louis-roederer-cristal-2004,Louis Roederer: Cristal 2004,Wine,Size,750ml,"[""Pinot Noir"",""Chardonnay""]",Champagne,White,NA,Louis Roederer,"[""94 points | Vinous"",""97 points | Wine Advocate""]",France,2004,Sparkling,1,4,,
+louis-roederer-cristal-2004,Louis Roederer: Cristal 2004,Wine,Size,1.5L,,,,,,,,,,,,,
+louis-roederer-cristal-2008,Louis Roederer: Cristal 2008,Wine,Size,1.5L,"[""Chardonnay"",""Pinot Noir""]",Champagne,White,NA,Louis Roederer,"[""98 points | Vinous"",""98 points | Wine Advocate""]",France,2008,Sparkling,1,4,,
+masseto-toscana-2018,Masseto: Toscana 2018,Wine,Size,1.5L,"[""Merlot""]",Tuscany,Red,Toscana,Masseto,"[""98 points | Vinous"",""97 points | Wine Advocate""]",Italy,2018,Still,4,3,3,
+masseto-toscana-2018,Masseto: Toscana 2018,Wine,Size,6L,,,,,,,,,,,,,
+masseto-toscana-2017,Masseto: Toscana 2017,Wine,Size,1.5L,"[""Merlot""]",Tuscany,Red,Toscana,Masseto,"[""96 - 99 points | Vinous"",""97 points | Wine Advocate""]",Italy,2017,Still,4,3,3,
+masseto-toscana-2017,Masseto: Toscana 2017,Wine,Size,6L,,,,,,,,,,,,,
+masseto-toscana-2019,Masseto: Toscana 2019,Wine,Size,1.5L,"[""Merlot""]",Tuscany,Red,Toscana,Masseto,"[""98 points | Vinous""]",Italy,2019,Still,4,3,3,
+masseto-toscana-2019,Masseto: Toscana 2019,Wine,Size,3L,,,,,,,,,,,,,
+masseto-toscana-2019,Masseto: Toscana 2019,Wine,Size,6L,,,,,,,,,,,,,
+opus-one-napa-valley-2012,Opus One: Napa Valley 2012,Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",California,Red,Napa Valley,Opus One,"[""96 points | Vinous""]",United States,2012,Still,4,3,3,
+nervi-conterno-gattinara-2016,Nervi Conterno: Gattinara 2016,Wine,Size,1.5L,"[""Nebbiolo""]",Piedmont,Red,Gattinara,Nervi Conterno,"[""92-93 points | Wine Advocate""]",Italy,2016,Still,4,4,5,
+opus-one-napa-valley-2016,Opus One: Napa Valley 2016,Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",California,Red,Napa Valley,Opus One,"[""96+ points | Vinous"",""98 points | Wine Advocate""]",United States,2016,Still,4,3,3,
+nervi-conterno-gattinara-2015,Nervi Conterno: Gattinara 2015,Wine,Size,1.5L,"[""Nebbiolo""]",Piedmont,Red,Gattinara,Nervi Conterno,,Italy,2015,Still,4,4,5,
+ornellaia-bolgheri-2020,Ornellaia: Bolgheri 2020,Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Tuscany,Red,Bolgheri,Ornellaia,"[""95 points | Wine Advocate""]",Italy,2020,Still,4,3,3,
+ornellaia-bolgheri-2020,Ornellaia: Bolgheri 2020,Wine,Size,1.5L,,,,,,,,,,,,,
+ornellaia-bolgheri-2020,Ornellaia: Bolgheri 2020,Wine,Size,3L,,,,,,,,,,,,,
+ornellaia-bolgheri-2014,Ornellaia: Bolgheri 2014,Wine,Size,3L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc"",""Petit Verdot""]",Tuscany,Red,Bolgheri,Ornellaia,"[""93-95 points | Wine Advocate""]",Italy,2014,Still,4,3,3,
+ornellaia-bolgheri-2014,Ornellaia: Bolgheri 2014,Wine,Size,1.5L,,,,,,,,,,,,,
+opus-one-napa-valley-2017,Opus One: Napa Valley 2017,Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",California,Red,Napa Valley,Opus One,"[""95 points | Vinous"",""95 points | Wine Advocate""]",United States,2017,Still,4,3,3,
+opus-one-napa-valley-2017,Opus One: Napa Valley 2017,Wine,Size,1.5L,,,,,,,,,,,,,
+ornellaia-bolgheri-2019,Ornellaia: Bolgheri 2019,Wine,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Tuscany,Red,Bolgheri,Ornellaia,"[""97 points | Vinous"",""97 points | Wine Advocate""]",Italy,2019,Still,4,3,3,
+ornellaia-bolgheri-2019,Ornellaia: Bolgheri 2019,Wine,Size,1.5L,,,,,,,,,,,,,
+ornellaia-bolgheri-2019,Ornellaia: Bolgheri 2019,Wine,Size,3L,,,,,,,,,,,,,
+ornellaia-bolgheri-2019,Ornellaia: Bolgheri 2019,Wine,Size,6L,,,,,,,,,,,,,
+pensees-de-lafleur-pomerol-2013,"Pensees de Lafleur, Pomerol 2013",Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,Lafleur,"[""87-88 points | Wine Advocate""]",France,2013,Still,4,3,3,
+pensees-de-lafleur-pomerol-2013,"Pensees de Lafleur, Pomerol 2013",Wine,Size,1.5L,,,,,,,,,,,,,
+ovid-napa-valley-red-wine-2017,"Ovid: Napa Valley, Red Wine 2017",Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Ovid,"[""96 points | Vinous""]",United States,2017,Still,4,3,3,
+pensees-de-lafleur-pomerol-2014,"Pensees de Lafleur, Pomerol 2014",Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,Lafleur,"[""90-92 points | Vinous"",""89-91 points | Wine Advocate""]",France,2014,Still,4,3,3,
+pensees-de-lafleur-pomerol-2014,"Pensees de Lafleur, Pomerol 2014",Wine,Size,3L,,,,,,,,,,,,,
+pensees-de-lafleur-pomerol-2015,"Pensees de Lafleur, Pomerol 2015",Wine,Size,1.5L,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,Lafleur,"[""88 - 91 points | Vinous"",""91-93 points | Wine Advocate""]",France,2015,Still,4,3,3,
+pensees-de-lafleur-pomerol-2015,"Pensees de Lafleur, Pomerol 2015",Wine,Size,3L,,,,,,,,,,,,,
+petrus-pomerol-2017,Petrus: Pomerol 2017,Wine,Size,750ml,"[""Merlot""]",Bordeaux,Red,Pomerol,Petrus,"[""98+ points | Wine Advocate""]",France,2017,Still,4,3,3,
+petrus-pomerol-2017,Petrus: Pomerol 2017,Wine,Size,1.5L,,,,,,,,,,,,,
+petrus-pomerol-2017,Petrus: Pomerol 2017,Wine,Size,3L,,,,,,,,,,,,,
+petrus-pomerol-2017,Petrus: Pomerol 2017,Wine,Size,6L,,,,,,,,,,,,,
+peter-michael-knights-valley-le-caprice-chardonnay-2005,"Peter Michael: Knights Valley, Le Caprice Chardonnay 2005",Wine,Size,1.5L,"[""Chardonnay""]",California,White,Knights Valley,Peter Michael,"[""92 points | Vinous"",""95 points | Wine Advocate""]",United States,2005,Still,3,3,,
+raul-perez-bierzo-ultreia-rapolao-2016,Raul Perez: Bierzo Ultreia Rapolao 2016,Wine,Size,1.5L,"[""Mencia""]",Castilla y Leon,Red,Bierzo,Raul Perez,"[""96+ points | Wine Advocate""]",Spain,2016,Still,3,3,3,
+peter-michael-santa-lucia-highlands-le-moulin-rouge-2005,"Peter Michael: Santa Lucia Highlands, Le Moulin Rouge 2005",Wine,Size,1.5L,"[""Pinot Noir""]",California,Red,Santa Lucia Highlands,Peter Michael,"[""92 points | Vinous"",""91 points | Wine Advocate""]",United States,2005,Still,3,3,3,
+reimitz-tuscany-igt-2012,Reimitz: Tuscany IGT 2012,Wine,Size,1.5L,"[""Sangiovese""]",Tuscany,Red,NA,Reimitz,,Italy,2012,Still,3,3,3,
+reimitz-tuscany-igt-2012,Reimitz: Tuscany IGT 2012,Wine,Size,3L,,,,,,,,,,,,,
+ridge-santa-cruz-mountains-estate-cabernet-sauvignon-2016,"Ridge: Santa Cruz Mountains, Estate Cabernet Sauvignon 2016",Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",California,Red,Santa Cruz Mountains,Ridge,"[""92 - 95 points | Vinous"",""92-95+ points | Wine Advocate""]",United States,2016,Still,4,3,3,
+ruinart-blanc-de-blancs-nv,Ruinart: Blanc de Blancs NV,Wine,Size,750ml,"[""Chardonnay""]",Champagne,White,,Ruinart,"[""92 points | Vinous"",""89 points | Wine Advocate""]",France,NV,Sparkling,1,4,,
+ruinart-blanc-de-blancs-nv,Ruinart: Blanc de Blancs NV,Wine,Size,1.5L,,,,,,,,,,,,,
+salon-2008,Salon: 2008,Wine,Size,1.5L,"[""Chardonnay""]",Champagne,White,Le Mesnil-sur-Oger,Salon,"[""100 points | Wine Advocate""]",France,2008,Sparkling,1,4,,Grand Cru
+salon-2012,Salon: 2012,Wine,Size,750ml,"[""Chardonnay""]",Champagne,White,Le Mesnil-sur-Oger,Salon,"[""98+ points | Wine Advocate""]",France,2012,Sparkling,1,4,,Grand Cru
+salon-2012,Salon: 2012,Wine,Size,1.5L,,,,,,,,,,,,,
+san-guido-bolgheri-sassicaia-2020,"San Guido: Bolgheri, Sassicaia 2020",Wine,Size,750ml,"[""Cabernet Sauvignon"",""Cabernet Franc""]",Tuscany,Red,Bolgheri,San Guido,"[""97 points | Vinous"",""96 points | Wine Advocate""]",Italy,2020,Still,4,3,3,
+san-guido-bolgheri-sassicaia-2020,"San Guido: Bolgheri, Sassicaia 2020",Wine,Size,1.5L,,,,,,,,,,,,,
+soldera-case-basse-toscana-100-sangiovese-2016,"Soldera Case Basse: Toscana,100% Sangiovese 2016",Wine,Size,750ml,"[""Sangiovese""]",Tuscany,Red,Toscana,Soldera Case Basse,,Italy,2016,Still,4,3,3,
+soldera-case-basse-toscana-100-sangiovese-2016,"Soldera Case Basse: Toscana,100% Sangiovese 2016",Wine,Size,1.5L,,,,,,,,,,,,,
+vieux-chateau-certan-pomerol-2018,Vieux Chateau Certan: Pomerol 2018,Wine,Size,750ml,"[""Merlot"",""Cabernet Franc"",""Cabernet Sauvignon""]",Bordeaux,Red,Pomerol,Vieux Chateau Certan,,France,2018,Still,4,3,3,
+vieux-chateau-certan-pomerol-2018,Vieux Chateau Certan: Pomerol 2018,Wine,Size,1.5L,,,,,,,,,,,,,
+vieux-telegraphe-chateauneuf-du-pape-la-crau-rouge-2012,"Vieux Telegraphe: Chateauneuf-du-Pape, La Crau Rouge 2012",Wine,Size,1.5L,"[""Grenache"",""Mourvedre"",""Syrah""]",Rhone,Red,Chateauneuf-du-Pape,Vieux Telegraphe,,France,2012,Still,4,2,3,
+bonneau-chateauneuf-du-pape-marie-beurrier-2014,"Bonneau: Chateauneuf-du-Pape, Marie Beurrier 2014",Wine,Size,1.5L,"[""Grenache"",""Mourvedre"",""Counoise""]",Rhone,Red,Chateauneuf-du-Pape,Bonneau,,France,2014,Still,4,2,3,
+taittinger-comtes-de-champagne-blanc-de-blancs-1998,Taittinger: Comtes de Champagne Blanc de Blancs 1998,Wine,Size,1.5L,"[""Chardonnay""]",Champagne,White,NA,Taittinger,"[""95 points | Vinous"",""94 points | Wine Advocate""]",France,1998,Sparkling,1,4,,
+bonneau-chateauneuf-du-pape-marie-beurrier-2016,"Bonneau: Chateauneuf-du-Pape, Marie Beurrier 2016",Wine,Size,750ml,"[""Grenache"",""Mourvedre"",""Counoise""]",Rhone,Red,Chateauneuf-du-Pape,Bonneau,,France,2016,Still,4,2,3,
+bonneau-chateauneuf-du-pape-marie-beurrier-2016,"Bonneau: Chateauneuf-du-Pape, Marie Beurrier 2016",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2014,Domaine de la Grange des Peres: Pays d'Herault Rouge 2014,Wine,Size,750ml,"[""Syrah"",""Mourvedre"",""Cinsault""]",Languedoc,Red,Pays d'Herault,de la Grange des Peres,,France,2014,Still,4,3,4,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2014,Domaine de la Grange des Peres: Pays d'Herault Rouge 2014,Wine,Size,1.5L,,,,,,,,,,,,,
+henri-bonneau-chateauneuf-du-pape-2016,Henri Bonneau: Chateauneuf-du-Pape 2016,Wine,Size,1.5L,"[""Grenache"",""Mourvedre"",""Counoise""]",Rhone,Red,Chateauneuf-du-Pape,Henri Bonneau,,France,2016,Still,4,2,3,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2018,Domaine de la Grange des Peres: Pays d'Herault Rouge 2018,Wine,Size,750ml,"[""Syrah"",""Mourvedre"",""Cinsault""]",Languedoc,Red,Pays d'Herault,de la Grange des Peres,,France,2018,Still,4,3,4,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2018,Domaine de la Grange des Peres: Pays d'Herault Rouge 2018,Wine,Size,1.5L,,,,,,,,,,,,,
+eagle-rare-kentucky-straight-bourbon,Eagle Rare: Kentucky Straight Bourbon,Spirits,Size,375ml,,,,,Eagle Rare,,United States,NV,,,,,
+eagle-rare-kentucky-straight-bourbon,Eagle Rare: Kentucky Straight Bourbon,Spirits,Size,1.5L,,,,,,,,,,,,,
+sothebys-champagne-blanc-de-blancs-grand-cru-nv,"Sotheby's: Champagne, Blanc de Blancs, Grand Cru NV",Wine,Size,750ml,"[""Chardonnay""]",Champagne,White,,Sotheby's,,France,NV,Sparkling,1,4,,
+sothebys-champagne-blanc-de-blancs-grand-cru-nv,"Sotheby's: Champagne, Blanc de Blancs, Grand Cru NV",Wine,Size,1.5L,,,,,,,,,,,,,
+opus-one-napa-valley-2018,Opus One: Napa Valley 2018,Wine,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Opus One ,,United States,2018,Still,4,3,3,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-1989,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 1989",,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""90 Points | Wine Advocate"",""96 Points | Wine Spectator"",""90 Points | Vinous""]",France,1989,Still,4,3,3,Premier Cru Classe
+chateau-de-beaucastel-hommage-a-jacques-perrin-chateauneuf-du-pape-1989,"Chateau de Beaucastel Hommage a Jacques Perrin, Chateauneuf-du-Pape 1989",,Size,1.5L,"[""Grenache"",""Mourvedre"",""Syrah""]",Rhone,Red,Chateauneuf-du-Pape,Famille Perrin,"[""100 Points | Wine Advocate"",""97 Points | Vinous""]",France,1989,Still,4,2,3,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-1990,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 1990",,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Mouton Rothschild,,France,1990,Still,4,3,3,Premier Cru Classe
+chateau-darmailhac-pauillac-5eme-cru-classe-2017,"Chateau d'Armailhac: Pauillac, 5eme Cru Classe 2017",,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,d'Armailhac,"[""90-92 Points | Wine Advocate"",""90-93 Points | Wine Spectator""]",France,2017,Still,4,3,3,5eme Cru Classe
+chateau-darmailhac-pauillac-5eme-cru-classe-2017,"Chateau d'Armailhac: Pauillac, 5eme Cru Classe 2017",,Size,1.5L,,,,,,,,,,,,,
+chateau-belair-monange-saint-emilion-grand-cru-premier-grand-cru-classe-b-2020,"Chateau Belair-Monange: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2020",,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Saint-Emilion Grand Cru,Belair-Monange,"[""95-97 Points | Wine Advocate"",""95-97 Points | Vinous""]",France,2020,Still,4,3,3,Premier Grand Cru Classe B
+chateau-belair-monange-saint-emilion-grand-cru-premier-grand-cru-classe-b-2020,"Chateau Belair-Monange: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2020",,Size,1.5L,,,,,,,,,,,,,
+giacomo-conterno-barolo-2015,Giacomo Conterno: Barolo 2015,,Size,750ml,"[""Nebbiolo""]",Piedmont,Red,Barolo,Giacomo Conterno,"[""98+ Points | Wine Advocate"",""99 Points | Vinous""]",Italy,2015,Still,4,4,5,
+giacomo-conterno-barolo-2015,Giacomo Conterno: Barolo 2015,,Size,1.5L,,,,,,,,,,,,,
+dominus-napa-valley-2020,"Dominus: Napa Valley, 2020",,Size,750ml,"[""Cabernet Sauvignon"",""Petit Verdot"",""Cabernet Franc""]",California,Red,Napa Valley,Dominus,,United States,2020,Still,4,3,3,
+dominus-napa-valley-2020,"Dominus: Napa Valley, 2020",,Size,1.5L,,,,,,,,,,,,,
+henri-boillot-echezeaux-grand-cru-2020,"Henri Boillot: Echezeaux, Grand Cru 2020",,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Echezeaux,Henri Boillot,,France,2020,Still,3,3,3,Grand Cru
+eisele-vineyard-napa-valley-cabernet-sauvignon-2016,"Eisele Vineyard: Napa Valley, Cabernet Sauvignon 2016",,Size,1.5L,"[""Cabernet Sauvignon""]",California,Red,Napa Valley,Eisele Vineyard,,United States,2016,Still,4,3,3,
+chateau-haut-bailly-pessac-leognan-cru-classe-lanting-set,"Chateau Haut-Bailly: Pessac-Leognan, Cru Classe Lanting Set",,Size,750ml,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pessac-Leognan,Haut-Bailly,,France,NV,Still,4,3,3,Cru Classe
+chateau-lafleur-pomerol-2019,Chateau Lafleur: Pomerol 2019,,Size,1.5L,"[""Merlot""]",Bordeaux,Red,Pomerol,Lafleur,"[""100 Points | Wine Advocate"",""100 Points | Vinous""]",France,2019,Still,4,3,3,
+masseto-toscana-2020,Masseto: Toscana 2020,,Size,3L,"[""Merlot""]",Tuscany,Red,Toscana,Masseto,,Italy,2020,Still,4,3,3,
+masseto-toscana-2020,Masseto: Toscana 2020,,Size,6L,,,,,,,,,,,,,
+masseto-toscana-2020,Masseto: Toscana 2020,,Size,750ml,,,,,,,,,,,,,
+masseto-toscana-2020,Masseto: Toscana 2020,,Size,1.5L,,,,,,,,,,,,,
+jean-marc-roulot-meursault-premier-cru-genevrieres-2018,"Jean-Marc Roulot: Meursault, Premier Cru, Genevrieres 2018",,Size,1.5L,"[""Chardonnay""]",Burgundy,White,Meursault,Jean-Marc Roulot,,France,2018,Still,3,4,,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2020,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2020",,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Jacques-Frederic Mugnier,,France,2020,Still,3,3,3,Premier Cru
+jacques-frederic-mugnier-nuits-saint-georges-premier-cru-clos-de-la-marechale-rouge-2020,"Jacques-Frederic Mugnier: Nuits-Saint-Georges, Premier Cru, Clos de la Marechale, Rouge 2020",,Size,1.5L,,,,,,,,,,,,,
+cyprien-arlaud-nuits-saint-georges-premier-cru-cuvee-joseph-2020,"Cyprien Arlaud: Nuits-Saint-Georges, Premier Cru, Cuvee Joseph 2020",,Size,750ml,"[""Pinot Noir""]",Burgundy,Red,Nuits-Saint-Georges,Cyprien Arlaud,,France,2020,Still,3,3,3,Premier Cru
+cyprien-arlaud-nuits-saint-georges-premier-cru-cuvee-joseph-2020,"Cyprien Arlaud: Nuits-Saint-Georges, Premier Cru, Cuvee Joseph 2020",,Size,1.5L,,,,,,,,,,,,,
+savart-le-mont-des-chretiens-2016,Savart: Le Mont des Chretiens 2016,,Size,1.5L,"[""Chardonnay""]",Champagne,White,,Savart,,France,2016,Sparkling,1,4,,Premier Cru
+savart-dremont-ephemere-012-rose-nv,Savart & Dremont: Ephemere 012 Rose NV,,Size,1.5L,"[""Pinot Noir""]",Champagne,Rose,,Savart & Dremont,,France,NV,Sparkling,1,4,,Grand Cru
+chateau-trotanoy-pomerol-2020,Chateau Trotanoy: Pomerol 2020,,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,Trotanoy,"[""98-100 Points | Wine Advocate"",""98-100 Points | Vinous""]",France,2020,Still,4,3,3,
+chateau-trotanoy-pomerol-2020,Chateau Trotanoy: Pomerol 2020,,Size,1.5L,,,,,,,,,,,,,
+chateau-la-conseillante-pomerol-1998,Chateau La Conseillante: Pomerol 1998,,Size,1.5L,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pomerol,La Conseillante,"[""90 Points | Wine Advocate"",""91 Points | Wine Spectator"",""87 Points | Vinous""]",France,1998,Still,4,3,4,
+clandestin-les-semblables-boreal-brut-nature-2017,Clandestin: Les Semblables Boreal Brut Nature 2017,,Size,1.5L,"[""Pinot Noir""]",Champagne,White,,Clandestin,,France,2017,Sparkling,1,4,,
+chateau-mouton-rothschild-pauillac-premier-cru-classe-1995,"Chateau Mouton Rothschild: Pauillac, Premier Cru Classe 1995",,Size,1.5L,"[""Cabernet Sauvignon"",""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Pauillac,Mouton Rothschild,"[""95 Points | Wine Advocate"",""94 Points | Wine Spectator"",""95 Points | Vinous""]",France,1995,Still,4,3,4,Premier Cru Classe
+domaine-de-la-romanee-conti-la-tache-grand-cru-1990,"Domaine de la Romanee-Conti: La Tache, Grand Cru 1990",,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,La Tache,de la Romanee-Conti,"[""100 Points | Wine Advocate"",""97 Points | Wine Spectator""]",France,1990,Still,3,3,3,Grand Cru
+jacques-frederic-mugnier-musigny-grand-cru-2010,"Jacques-Frederic Mugnier: Musigny, Grand Cru 2010",,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Musigny,Jacques-Frederic Mugnier,"[""96-98 Points | Wine Advocate"",""96 Points | Vinous""]",France,2010,Still,3,3,3,Grand Cru
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2016,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2016",Wine,Size,750ml,"[""Merlot"",""Cabernet Franc""]",Bordeaux,Red,Saint-Emilion Grand Cru,Canon,"[""98+ points | Wine Advocate""]",France,2016,Still,,,,Premier Grand Cru Classe B
+chateau-canon-saint-emilion-grand-cru-premier-grand-cru-classe-b-2016,"Chateau Canon: Saint-Emilion Grand Cru, Premier Grand Cru Classe B 2016",Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-bonneau-du-martray-corton-charlemagne-grand-cru-2020,"Domaine Bonneau du Martray: Corton-Charlemagne, Grand Cru 2020",,Size,750ml,"[""Chardonnay""]",Burgundy,White,Corton-Charlemagne,Bonneau du Martray,,France,2020,Still,,,,Grand Cru
+domaine-bonneau-du-martray-corton-charlemagne-grand-cru-2020,"Domaine Bonneau du Martray: Corton-Charlemagne, Grand Cru 2020",,Size,1.5L,,,,,,,,,,,,,
+chateau-phelan-segur-saint-estephe-2015,Chateau Phelan Segur: Saint-Estephe 2015,Wine,Size,1.5L,"[""Cabernet Sauvignon"",""Cabernet Franc"",""Merlot""]",Bordeaux,Red,Saint Estephe,Phelan Segur,,France,2015,Still,,,,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2020,Domaine de la Grange des Peres: Pays d'Herault Rouge 2020,Wine,Size,750ml,"[""Syrah"",""Mourvedre"",""Cinsault""]",Languedoc,Red,Pays d'Herault,Grange des Peres,,France,2020,Still,4,3,4,
+domaine-de-la-grange-des-peres-pays-dherault-rouge-2020,Domaine de la Grange des Peres: Pays d'Herault Rouge 2020,Wine,Size,1.5L,,,,,,,,,,,,,
+domaine-marquis-dangerville-bourgogne-rouge,Domaine Marquis d'Angerville: Bourgogne Rouge,Wine,Size,1.5L,"[""Pinot Noir""]",Burgundy,Red,Bourgogne,Marquis d'Angerville,,France,2019,Still,3,3,3,
+chateau-mont-redon-chateauneuf-du-pape-rouge-2010,"Chateau Mont-Redon: Chateauneuf-du-Pape, Rouge 2010",,Title,750ml,"[""Grenache"",""Mourvedre"",""Syrah""]",Rhone,Red,Chateauneuf-du-Pape,Mont-Redon,,France,2010,Still,,,,
+chateau-mont-redon-chateauneuf-du-pape-rouge-2010,"Chateau Mont-Redon: Chateauneuf-du-Pape, Rouge 2010",,Title,1.5L,,,,,,,,,,,,,
+domaine-tempier-bandol-rose-2022,Domaine Tempier: Bandol Rose 2022,,Size,750ml,"[""Grenache"",""Mourvedre"",""Cinsault""]",Provence,Rose,Bandol,Tempier,,France,2022,Still,4,2,,
+domaine-tempier-bandol-rose-2022,Domaine Tempier: Bandol Rose 2022,,Size,1.5L,,,,,,,,,,,,,
+domaine-tempier-bandol-rose-2022,Domaine Tempier: Bandol Rose 2022,,Size,3L,,,,,,,,,,,,,
+roilette-fleurie-2022,Roilette: Fleurie 2022,Wine,Size,750ml,"[""Gamay""]",Beaujolais,Red,Fleurie,Roilette,,France,2022,Still,3,3,2,
